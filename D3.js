@@ -179,11 +179,11 @@ console.log("eyeColor:", eyeColor);
 */
 
 let crewMass = 0;
-let counter = 0;
+let i = 0;
 
-while (counter < starWarsCharacters.length) {
-  crewMass += starWarsCharacters[counter].mass;
-  counter++;
+while (i < starWarsCharacters.length) {
+  crewMass += starWarsCharacters[i].mass;
+  i++;
 }
 
 console.log("crewMass:", crewMass);
